@@ -1,0 +1,43 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4.3.0,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "ba_halo"
+version = "${version}-forge"
+displayName = "BA光环"
+authors = "qsxhxxx"
+description = '''
+CGJR整合包使用，以“仿碧蓝档案光环”为基础编写。ctrl+q可关闭光环渲染
+'''
+logoFile = "assets/ba-halo/icon.png"
+
+
+[[dependencies.ba_halo]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ba_halo]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ba_halo]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.ba_halo]]
+modId = "kotlinforforge"
+mandatory = true
+versionRange = "[4.3.0,)"
+ordering = "NONE"
+side = "BOTH"
