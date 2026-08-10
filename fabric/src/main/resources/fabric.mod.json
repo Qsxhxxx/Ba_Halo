@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ba_halo",
+  "version": "${version}",
+  "name": "BA光环",
+  "description": "碧蓝档案风格光环模组。ctrl+q可关闭光环渲染",
+  "authors": [
+    "qsxhxxx"
+  ],
+  "contact": {
+    "homepage": "https://www.mcmod.cn/class/21385.html",
+    "sources": "https://github.com/2894638479/fabric-blue-archive-halo",
+    "issues": "https://github.com/2894638479/fabric-blue-archive-halo/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/ba-halo/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "value": "name.ba_halo.fabric.BlueArchiveHaloClientFabric",
+        "adapter": "kotlin"
+      }
+    ],
+    "modmenu": [
+      {
+        "value": "name.ba_halo.fabric.BlueArchiveHaloModMenu",
+        "adapter": "kotlin"
+      }
+    ]
+  },
+  "mixins": [
+    "ba-halo-client.mixin.json"
+  ],
+  "accessWidener": "bahalo.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13.3+kotlin.2.1.21"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "bigbeacons": "*",
+    "better_beacons": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "key.categories.ba_halo": "Blue Archive Halo",
+  "key.ba_halo.open_config": "Open Config",
+  "key.ba_halo.toggle_rings": "Toggle Rings (Ctrl+Q)",
+  "message.ba_halo.rings_enabled": "Halo rings enabled",
+  "message.ba_halo.rings_disabled": "Halo rings disabled"
+}
